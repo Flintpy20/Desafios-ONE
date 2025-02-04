@@ -1,4 +1,4 @@
-# Desafio 02
+# Desafios do Programa ONE
 
 Esse é o repositório para os exercícios dos Desafios do Programa ONE (Oracle Next Education).
 
