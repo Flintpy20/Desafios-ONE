@@ -1,0 +1,40 @@
+body {
+	background: linear-gradient(180deg, #254B94,#3C78ED);
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container_conteudo {
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+}
+
+.container_cabecalho {
+	margin: 0;
+	width: 100%;
+}
+
+.background-retangulo {
+	background-color: #C21717;
+	width: auto;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.container_texto-cor {
+	color: #f0f0f0;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 0;
+	padding: 16px;
+}
