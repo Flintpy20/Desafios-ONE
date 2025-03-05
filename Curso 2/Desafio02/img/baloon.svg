@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="420.79102"
+   height="114.66766"
+   viewBox="0 0 111.33429 30.339152"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="baloon.svg"
+   inkscape:export-filename="C:\Users\leona\Desktop\ballon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="4.2571428"
+     inkscape:cx="134.83222"
+     inkscape:cy="109.34564"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="1116"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00a9f1;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#5dffea;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter4"
+       x="-0.13295783"
+       y="-0.30878073"
+       width="1.2659158"
+       height="1.6175615">
+      <feGaussianBlur
+         stdDeviation="2 5.15418"
+         result="fbSourceGraphic"
+         id="feGaussianBlur4" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4" />
+      <feGaussianBlur
+         id="feGaussianBlur5"
+         stdDeviation="2 2"
+         result="blur"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8"
+       x="-0.032526125"
+       y="-0.042234631"
+       width="1.0650523"
+       height="1.0844693">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.97853959"
+         id="feGaussianBlur8" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="10.200411"
+       y1="13.007991"
+       x2="82.403755"
+       y2="68.613899"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2"
+       x="-0.03590314"
+       y="-0.19551204"
+       width="1.0718063"
+       height="1.3910241">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2489834"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5"
+       x="-0.0082830126"
+       y="-0.063680742"
+       width="1.016566"
+       height="1.1273615">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.33500279"
+         id="feGaussianBlur6" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(10.038712,-13.24318)">
+    <g
+       id="g2">
+      <g
+         id="g1"
+         transform="matrix(1.5419547,0,0,0.54561022,-25.767284,6.1458873)">
+        <path
+           id="path8"
+           style="display:inline;opacity:0.104167;mix-blend-mode:normal;fill:#00090c;fill-opacity:1;stroke:none;stroke-width:0.894556;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;filter:url(#filter8)"
+           d="M 22.497009,14.499602 V 25.481878 H 11.44342 V 70.10551 H 83.646764 V 25.481878 H 27.49669 Z"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           id="rect1"
+           style="opacity:1;fill:url(#linearGradient2);fill-opacity:1;stroke:none;stroke-width:0.894556;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
+           d="M 21.254,13.007991 V 23.990267 H 10.200411 V 68.613899 H 82.403755 V 23.990267 H 27.621722 Z"
+           sodipodi:nodetypes="cccccccc" />
+      </g>
+      <rect
+         style="opacity:0.545833;mix-blend-mode:normal;fill:none;fill-opacity:0.671498;stroke:#ffffff;stroke-width:1.58194;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2)"
+         id="rect2"
+         width="105.52086"
+         height="19.377478"
+         x="-7.1320043"
+         y="21.823101" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Frutiger;-inkscape-font-specification:Frutiger;font-variant-ligatures:none;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.526316;fill:#1a242a;fill-opacity:1;stroke-width:0.264583;filter:url(#filter5)"
+       x="9.0193319"
+       y="16.917274"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-size:6.35px;fill:#1a242a;fill-opacity:1;stroke-width:0.264583"
+         x="9.0193319"
+         y="16.917274">Você precisa digitar um nome para</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;fill:#1a242a;fill-opacity:1;stroke-width:0.264583"
+         x="9.0193319"
+         y="24.854774"
+         id="tspan4">continuar.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Frutiger;-inkscape-font-specification:Frutiger;font-variant-ligatures:none;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       x="9.0193319"
+       y="16.388107"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:6.35px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="9.0193319"
+         y="16.388107">Você precisa digitar um nome para</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="9.0193319"
+         y="24.325607"
+         id="tspan2">continuar.</tspan></text>
+  </g>
+</svg>

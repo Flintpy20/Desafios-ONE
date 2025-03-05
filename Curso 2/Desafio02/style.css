@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Frutiger';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Frutiger.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Frutiger Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/Frutiger_bold.woff') format('woff');
+    }
+
+body {
+    background: linear-gradient(120deg, #0b63ab, #27c399);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Frutiger', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 180px;
+    height: auto;
+    background-image: linear-gradient(135deg, rgba(200, 220, 255, 0.3), rgba(180, 200, 230, 0.1));
+    background-color: rgba(255,255,255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    color: #f0f0f0;
+    padding-left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    max-height: 400px; /* Limita a altura máxima */
+    overflow-y: auto; /* Adiciona barra de rolagem se necessário */
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.sidebar li {
+    display: block;
+    width: 100%;
+    padding: 10px 0px 12px 0px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    cursor: pointer;
+    font-family: 'Frutiger', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s ease;
+}
+
+.sidebar li:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar li.active {
+    background: linear-gradient(135deg, #0b63ab, #27c399); /* Substitua as cores pelo gradiente desejado */
+    color: #ffffff;
+}
+
+.container_conteudo {
+    display: none;
+    padding: 20px;
+    width: calc(100% - 200px);
+    box-sizing: border-box;
+}
+
+.conteudo {
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.container_conteudo.active {
+    display: block;
+}
+
+p {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.header_page {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 2px;
+}
+
+.header_page .logo {
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+.header_page h1 {
+    font-size: 16pt;
+    color: #f0f0f0;
+    margin-left: 3px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Frutiger', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    margin: 0px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+#aviso {
+    display: none;
+    position: relative;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img {
+    width: 200px;
+}
+
